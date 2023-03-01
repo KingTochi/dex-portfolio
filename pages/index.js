@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import {
   AiFillTwitterCircle,
   AiFillInstagram,
