@@ -14,7 +14,7 @@ import work3 from "../public/work3.png";
 import work4 from "../public/work4.png";
 import work5 from "../public/work5.png";
 import work6 from "../public/work6.png";
-import coverImg from "../public/dev-ed-wave.png";
+import coverImg from "../public/pic.png";
 
 export default function Home() {
   return (
