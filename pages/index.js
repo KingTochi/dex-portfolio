@@ -1,10 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import {
-  AiFillTwitterCircle,
-  AiFillInstagram,
-  AiFillBehanceSquare,
-} from "react-icons/ai";
+import { AiFillInstagram, AiFillBehanceSquare } from "react-icons/ai";
 import blender from "../public/blender.png";
 import figma from "../public/figma.png";
 import graphic from "../public/graphic.png";
@@ -25,6 +21,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className="px-10 md:px-20 lg:px-40">
         <section className="min-h-screen pb-5 ">
           <nav className="py-10 mb-12 flex justify-between">
@@ -77,8 +74,11 @@ export default function Home() {
               <span className="text-orange-500 font-medium"> agencies </span>
               consulted for
               <span className="text-orange-500 font-medium"> startups </span>
-              and collaborated with talented people to create digital products
-              for both business and consumer use.
+              and collaborated with{" "}
+              <span className="text-orange-500 font-medium">
+                talented people{" "}
+              </span>{" "}
+              to create digital products for both business and consumer use.
             </p>
             <p className="text-md py-2 leading-8">
               I offer from a wide range of services, including{" "}
