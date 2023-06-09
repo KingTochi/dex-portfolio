@@ -107,4 +107,9 @@ a {
 @font-face {
   font-family: "ClashDisplay";
   src: url("../public/ClashDisplay-Regular.otf");
+
+  font-family: "Macherie";
+  src: url("../public/macherie.otf")
 }
+
+

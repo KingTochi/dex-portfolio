@@ -12,6 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         ClashDisplay: "ClashDisplay",
+        Macherie: "Macherie",
       },
     },
   },
